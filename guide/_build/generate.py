@@ -100,6 +100,19 @@ TEMPLATE = """<!DOCTYPE html>
   <div class="step"><div class="num">2</div><div>{s2}</div></div>
   <div class="step"><div class="num">3</div><div>{s3}</div></div>
 
+  <h2>{mb_h}</h2>
+  <div class="card">
+    <p>{mb_p1}</p>
+    <ul>
+      <li>{mb_li1}</li>
+      <li>{mb_li2}</li>
+      <li>{mb_li3}</li>
+      <li>{mb_li4}</li>
+      <li>{mb_li5}</li>
+    </ul>
+    <p>{mb_p2}</p>
+  </div>
+
   <h2>{modes_h}</h2>
   <p>{modes_p}</p>
 
