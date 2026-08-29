@@ -164,6 +164,12 @@ TEMPLATE = """<!DOCTYPE html>
     <p>{tts_p2}</p>
   </div>
 
+  <h2>{rp_h}</h2>
+  <div class="card">
+    <p>{rp_p1}</p>
+    <p>{rp_p2}</p>
+  </div>
+
   <h2>{faq_h}</h2>
   <div class="faq">
     <details><summary>{f1_q}</summary>
