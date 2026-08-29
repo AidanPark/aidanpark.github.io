@@ -180,6 +180,11 @@ TEMPLATE = """<!DOCTYPE html>
       <p>{f5_a}</p></details>
   </div>
 
+  <h2>{os_h}</h2>
+  <div class="card">
+    <p>{os_p}</p>
+  </div>
+
   <h2>{stuck_h}</h2>
   <p>{stuck_p}</p>
   <a class="store" href="https://play.google.com/store/apps/details?id=com.galaxy.airviewdictionary">{store_btn}</a>
