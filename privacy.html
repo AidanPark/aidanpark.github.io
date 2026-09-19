@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Screen Translate</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.7; color: #333; background: #f9f9f9; }
+        .container { max-width: 800px; margin: 0 auto; padding: 40px 24px; }
+        h1 { font-size: 28px; margin-bottom: 8px; color: #1a1a1a; }
+        .updated { color: #666; font-size: 14px; margin-bottom: 32px; }
+        h2 { font-size: 20px; margin-top: 32px; margin-bottom: 12px; color: #1a1a1a; }
+        p, li { font-size: 15px; margin-bottom: 12px; }
+        ul { padding-left: 24px; }
+        li { margin-bottom: 8px; }
+        a { color: #1a73e8; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #ddd; font-size: 13px; color: #888; }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: September 19, 2026</p>
+
+    <p>This Privacy Policy describes how Screen Translate ("we", "our", or "the app") handles
+        information when you use our Android application.</p>
+
+    <h2>1. Information We Do Not Collect</h2>
+    <p>We do not operate servers that receive your content. We do not collect, store, or transmit:</p>
+    <ul>
+        <li>Names, email addresses, or phone numbers</li>
+        <li>Location data</li>
+        <li>Contacts or call logs</li>
+        <li>Photos, files, or media, other than the temporary screen capture described below</li>
+        <li>Account credentials or passwords</li>
+    </ul>
+
+    <h2>2. Screen Capture and Text Recognition</h2>
+    <p>The app uses Android's MediaProjection API to capture what is currently displayed on your
+        screen. That image is:</p>
+    <ul>
+        <li>Processed on your device using on-device OCR (Google ML Kit) to extract visible text</li>
+        <li>Used solely to produce a translation</li>
+        <li>Never stored, logged, or sent to us</li>
+        <li>Discarded as soon as the translation completes</li>
+    </ul>
+
+    <h2>3. Translation Engines</h2>
+    <p>The extracted text is sent from your device directly to the translation engine you select.
+        We are not an intermediary and never receive this text. Available engines:</p>
+    <ul>
+        <li><strong>Google Translate</strong> — used by default, no key required</li>
+        <li><strong>DeepL, OpenAI, Google Gemini, Anthropic Claude</strong> — used only if you enter
+            your own API key for that provider</li>
+    </ul>
+    <p>Your text is handled by the provider you choose, under that provider's own privacy policy and
+        your own account terms with them. Please review:
+        <a href="https://policies.google.com/privacy">Google</a>,
+        <a href="https://www.deepl.com/privacy">DeepL</a>,
+        <a href="https://openai.com/policies/privacy-policy">OpenAI</a>,
+        <a href="https://www.anthropic.com/legal/privacy">Anthropic</a>.</p>
+
+    <h2>4. Context Option (AI Engines)</h2>
+    <p>For the AI engines you may enable a context option. When it is on, text recognized elsewhere
+        on the same screen is sent together with the sentence being translated, so the model can
+        resolve pronouns and ambiguous words. This means <strong>more of the on-screen text leaves
+        your device</strong> than with the option off.</p>
+    <p>The option is set per engine. The default is to include only the surrounding sentences; you
+        can turn it off entirely, or extend it to the whole screen, in the engine's settings.</p>
+
+    <h2>5. API Keys</h2>
+    <p>API keys you enter are encrypted and stored only on your device. They are sent only to the
+        provider they belong to, in order to authenticate your own requests. We never receive them.</p>
+
+    <h2>6. Advertising</h2>
+    <p>The app is free and supported by ads delivered through Google AdMob. To show a rewarded ad,
+        the Google Mobile Ads SDK may collect and process data such as your advertising identifier,
+        device information, and ad interactions. This is handled by Google under the
+        <a href="https://policies.google.com/technologies/partner-sites">Google Privacy &amp; Terms</a>.</p>
+    <p>In the European Economic Area, the United Kingdom and Switzerland, we present a consent
+        message before personalized ads are served, and you can change your choice at any time from
+        the app's settings.</p>
+
+    <h2>7. Firebase Services</h2>
+    <p>The app uses the following Google Firebase services:</p>
+    <ul>
+        <li><strong>Analytics and Crashlytics</strong> — anonymous usage statistics and crash
+            reports used to fix defects and improve the app. These do not identify you personally
+            and never include the text you translate.</li>
+        <li><strong>Remote Config</strong> — delivers configuration values to the app.</li>
+        <li><strong>App Check</strong> — verifies that requests come from a genuine install.</li>
+    </ul>
+    <p>See <a href="https://firebase.google.com/support/privacy">Firebase Privacy and Security</a>.</p>
+
+    <h2>8. Text-to-Speech</h2>
+    <p>Reading translations aloud uses the text-to-speech engine installed on your device. Whether
+        that engine processes text on-device or in the cloud depends on the engine you have selected
+        in Android settings.</p>
+
+    <h2>9. Permissions</h2>
+    <ul>
+        <li><strong>Display over other apps</strong> — to show the floating translation overlay</li>
+        <li><strong>Screen capture</strong> — to read visible text via OCR for translation</li>
+        <li><strong>Internet</strong> — to reach the translation engine and serve ads</li>
+        <li><strong>Vibration</strong> — haptic feedback when text is detected</li>
+        <li><strong>Notifications</strong> — required for the foreground service indicator</li>
+    </ul>
+
+    <h2>10. Children's Privacy</h2>
+    <p>Screen Translate is not directed at children under the age of 13, and we do not knowingly
+        collect personal information from children.</p>
+
+    <h2>11. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. Changes will be reflected on this page
+        with an updated "Last updated" date.</p>
+
+    <h2>12. Contact Us</h2>
+    <p>If you have questions about this Privacy Policy, contact us at:
+        <a href="mailto:handwritingdictionary@gmail.com">handwritingdictionary@gmail.com</a></p>
+
+    <div class="footer">
+        &copy; 2026 Screen Translate. All rights reserved.
+    </div>
+
+</div>
+</body>
+</html>
